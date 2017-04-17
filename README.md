@@ -5,14 +5,14 @@ Youtube Gaming inspired Tabs
 
 LivingTabs is based on TabLayout,so you get the same simple API with a beautiful and intuitive interface.
 
-##How to use it?
+## How to use it?
 Setup LivingTabs in the same way you setup TabLayout with ViewPager and then make the pager's adapter implements either [`DrawableIconAdapter`](/livingtabs/src/main/java/com/saiff35/livingtabs/LivingTabsLayout.java#L305) or [`DrawableResIconAdapter`](/livingtabs/src/main/java/com/saiff35/livingtabs/LivingTabsLayout.java#L311)
 
 Here is an example:
 
-####1)Declare your layout
+#### 1)Declare your layout
 
-####activity_main.xml
+#### activity_main.xml
 ```xml
 
 <android.support.design.widget.CoordinatorLayout
@@ -45,8 +45,8 @@ Here is an example:
 
 ```
 
-####2)Setup Tabs with a ViewPager
-####MainActivity  
+#### 2)Setup Tabs with a ViewPager
+#### MainActivity  
 ```java
   @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,8 +63,8 @@ Here is an example:
     }
 ```
 
-####3)Make the pager's adapter implements either [`DrawableIconAdapter`](/livingtabs/src/main/java/com/saiff35/livingtabs/LivingTabsLayout.java#L305) or [`DrawableResIconAdapter`](/livingtabs/src/main/java/com/saiff35/livingtabs/LivingTabsLayout.java#L311)
-####MainAdapter
+#### 3)Make the pager's adapter implements either [`DrawableIconAdapter`](/livingtabs/src/main/java/com/saiff35/livingtabs/LivingTabsLayout.java#L305) or [`DrawableResIconAdapter`](/livingtabs/src/main/java/com/saiff35/livingtabs/LivingTabsLayout.java#L311)
+#### MainAdapter
 ```java
  public class MainAdapter extends FragmentPagerAdapter implements LivingTabsLayout.DrawableResIconAdapter {
       
@@ -86,9 +86,9 @@ Here is an example:
 ```
 *PS:For curious people wondering what happens if the adapter implements both IconAdapters,LivingTabs will use [`DrawableResIconAdapter`](/livingtabs/src/main/java/com/saiff35/livingtabs/LivingTabsLayout.java#L311).*
 
-##How to set it up with Gradle?
+## How to set it up with Gradle?
 
-####1) Add dependency in your module build.gradle file
+#### 1) Add dependency in your module build.gradle file
 In *dependencies* add:
 
     compile ('com.github.saiff35:livingtabs:0.1.0') {
@@ -97,9 +97,9 @@ In *dependencies* add:
         
 Make sure to add the latest version of the lib
 
-####2) Use it to keep building your amazing apps :+1:
+#### 2) Use it to keep building your amazing apps :+1:
 
-##Author
+## Author
   Saif Chaouachi
   
 <a href="https://plus.google.com/+SaifChaouachi/posts">
@@ -118,7 +118,7 @@ Make sure to add the latest version of the lib
 
 
 
-##License
+## License
 
 LivingTabs is released under the **Apache License 2.0**
 
